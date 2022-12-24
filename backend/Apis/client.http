@@ -1,0 +1,13 @@
+###
+GET http://localhost:8000/users/all-users
+
+###
+POST http://localhost:8000/users/createuser
+Content-Type: application/json
+
+{
+    "userId": 15,
+    "username": "Ram",
+    "password": "12345"
+}
+
